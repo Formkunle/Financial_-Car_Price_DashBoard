@@ -21,7 +21,6 @@ The dataset contains vehicle-related information, including details about their 
 16.	Sales Date – The date when the vehicle transaction took place.
 
 # Initial Observations
-![Alt Text]()
 •	The dataset provides insights into vehicle sales patterns, pricing trends, and vehicle conditions.
 •	Some columns, such as VIN and seller, may contain unique values, making them useful for tracking individual transactions.
 •	The sales date column enables time-series analysis, allowing us to examine trends in vehicle sales over time.
@@ -34,33 +33,34 @@ The primary objectives of this project include:
 3.	Demand Insights: Identify the most popular car makes, models, and trims based on sales trends.
 4.	Condition vs. Pricing: Assess the impact of car condition and mileage on pricing.
 5.	Market Trends: Analyze regional sales patterns to understand geographic demand variations.
-6.	Predictive Modeling (Optional): Use statistical models or machine learning to predict car prices based on historical data.
+
 # Interpretation
+![Car Dashboard](./Car%20Price%20Dashboard.png)
 1. Key Performance Indicators (KPIs)
-•	Total Cars Sold: 331K units.
-•	Total Sales Price: 4541M (or $4.541 billion).
-•	Average Sales Price: 13.70K ($13,700 per car on average).
+- Total Cars Sold: 331K units.
+- Total Sales Price: 4541M (or $4.541 billion).
+- Average Sales Price: 13.70K ($13,700 per car on average).
 2. Most Profitable Car Models
-•	Top 3 Most Profitable Models:
+- Top 3 Most Profitable Models:
 -	Rolls-Royce (155,254 in revenue).
 -	Ferrari (131,250 in revenue).
 -	Lamborghini (111,500 in revenue).
-•	Luxury brands dominate the list, indicating that high-end cars contribute significantly to profits.
+-	Luxury brands dominate the list, indicating that high-end cars contribute significantly to profits.
 3. Most Sold Car Brands
-•	Ford (56,321 units) is the highest-selling brand, followed by Chevrolet (7,861 units) and Toyota (6,154 units).
-•	Ford dominates in volume, but luxury brands dominate profitability.
+-	Ford (56,321 units) is the highest-selling brand, followed by Chevrolet (7,861 units) and Toyota (6,154 units).
+-	Ford dominates in volume, but luxury brands dominate profitability.
 4. Total Car Sales Over the Years
 -	Sales increased from 36,253 in 2014 to 295,094 in 2015.
 -	This is an increase of +258,841 sales, which is about 714% growth.
 5. Most Profitable Car Models by State
-•	The top states contribute between 10K - 29K in total revenue, suggesting an uneven distribution of profitability across different regions.
+-	The top states contribute between 10K - 29K in total revenue, suggesting an uneven distribution of profitability across different regions.
 6. Seller Contribution to Total Sales
-•	Ford Motor Credit Company LLC (12,665 units), Hertz (10,962 units), and Nissan Infiniti (10,277 units) are the leading sellers.
-•	Indicates that corporate sales play a crucial role in total volume.
+-	Ford Motor Credit Company LLC (12,665 units), Hertz (10,962 units), and Nissan Infiniti (10,277 units) are the leading sellers.
+-	Indicates that corporate sales play a crucial role in total volume.
 7. Impact of Mileage on Price
-•	Low-mileage cars (0 - 20K miles) fetch the highest average price (21.48K).
-•	Cars with over 100K miles have the lowest price (~5K).
-•	Depreciation is significant as mileage increases, meaning lower-mileage cars are valued more.
+-	Low-mileage cars (0 - 20K miles) fetch the highest average price (21.48K).
+-	Cars with over 100K miles have the lowest price (~5K).
+-	Depreciation is significant as mileage increases, meaning lower-mileage cars are valued more.
 # Conclusion
 1.	High-end luxury brands (Rolls-Royce, Ferrari, Lamborghini) are the most profitable, but economy brands (Ford, Chevrolet, Toyota) dominate in sales volume.
 2.	Sales peaked in 2015 and dropped sharply, suggesting external factors like market conditions or consumer demand shifts.
